@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Tirupati Balaji Print</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Company Logo" class="logo" height="120px" width="150px">
+        <h1>Shree Tirupati Balaji Print</h1>
+        <p>For inquiries,📞Call: 94162-23598, 90346-23598</p>
+        <p>✉️ shreetirupatibalajiprint@gmail.com </p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#gallery">Images</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2 id="typing-effect"></h2>
+        <img src="image.png" alt="balaji" height="250px" width="250px">
+        <h4>Your one-stop solution for high-quality printing services including art cards, gumming sheets, and more.
+        </h4>
+
+        <div class="features">
+            <h3>We Are Known For:</h3>
+            <ul>
+                <li class="fade-in">⚡ Fast Service</li>
+                <li class="fade-in">🖌️ High-Quality Printing</li>
+                <li class="fade-in">💰 Affordable Pricing</li>
+                <li class="fade-in">🏢 Various Printing Under One Roof</li>
+                <li class="fade-in">📂 Sample Files and Catalogues</li>
+                <li class="fade-in">✂️ Zig Zag Cutting</li>
+                <li class="fade-in">💦 Waterfall</li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>🖼️ Art Card & Gumming Sheet Printing</li>
+            <li>📄 Photostat</li>
+            <li>📖 Bill Books</li>
+            <li>🛡️ Lamination</li>
+            <li>🏷️ Stickers</li>
+            <li>💳 Visiting Cards</li>
+            <li>💌 Wedding Cards</li>
+
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <h4>Welcome to <strong>Shree Tirupati Balaji Print</strong>, your trusted printing partner. With years of
+            experience in the printing industry, we provide high-quality printing solutions for businesses and
+            individuals.
+            Our goal is to deliver outstanding prints at affordable prices with fast service.</h4>
+        <br>
+
+        <h4>We specialize in art card printing, gumming sheets, photostats, bill books, lamination, and custom sticker
+            printing. Our dedication to customer satisfaction has made us a leading choice in the region.</h4>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Office Place</h2>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button> <!-- Left Button -->
+
+
+
+                <div class="carousel-images">
+                    <img src="1.jpeg" class="slide" alt="Printing Sample 1">
+                    <img src="2.jpeg" class="slide" alt="Printing Sample 2">
+                    <img src="3.jpeg" class="slide" alt="Printing Sample 3">
+                    <img src="4.jpeg" class="slide" alt="Printing Sample 4">
+                    <img src="5.jpeg" class="slide" alt="Printing Sample 5">
+                    <img src="6.jpeg" class="slide" alt="Printing Sample 6">
+                    <img src="7.jpeg" class="slide" alt="Printing Sample 7">
+                    <img src="8.jpeg" class="slide" alt="Printing Sample 8">
+                </div>
+
+                <button class="next" onclick="moveSlide(1)">&#10095;</button> <!-- Right Button -->
+            </div>
+
+            <!-- Dots for Navigation -->
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section id="map">
+        <h2>Our Location</h2>
+        <h3>📍 Shree Tirupati Balaji Print <br> <br> Geeta Mandir Road, Near Assandh Flyover, Panipat-132103</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d434.5232710521188!2d76.96546576154164!3d29.394109513006846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ddbcdff3571bb%3A0x1fdb056fcfa9ec2f!2sShree%20Tirupati%20balaji%20print!5e0!3m2!1sen!2sin!4v1742029388133!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any inquiries, reach out to us at:</p>
+        <p>📞 94162-23598, 90346-23598</p>
+        <p>✉️ shreetirupatibalajiprint@gmail.com </p>
+        <form action="https://formspree.io/f/mwplpvjb" method="POST">
+            <input type="text" placeholder="Your Name"  name="name" required>
+            <input type="email" placeholder="Your Email"  name="email" required>
+            <textarea placeholder="Your Message"  name="msg" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

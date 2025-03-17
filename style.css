@@ -1,0 +1,235 @@
+/* General Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    /* Deep Black Background */
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    /* background: linear-gradient(135deg, #5f595a, #44a682); */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(255, 23, 68, 0.3);
+    border-bottom: 3px solid #ffea00;
+    /* Yellow Accent */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffea00;
+    /* Bright Yellow */
+    text-decoration: none;
+    margin: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #18ffff;
+    /* Cyan Glow */
+    text-shadow: 0px 0px 10px #18ffff;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 6px 15px rgba(255, 0, 0, 0.4);
+}
+
+h4 {
+    font-size: 1.3em;
+    color: #ffea00;
+    /* Bright Yellow */
+}
+
+/* Section Headings */
+h2 {
+    /* font-size: 2.2em; */
+    font-size: 48px;
+    color: #ff1744;
+    /* Bright Red */
+}
+
+/* Service List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(0, 255, 255, 0.2);
+    /* Cyan */
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: rgba(0, 255, 255, 0.4);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    background: #333;
+    color: #fff;
+}
+
+textarea {
+    height: 100px;
+}
+
+body {
+    background-color: #273844;
+}
+
+button {
+    background: linear-gradient(135deg, #ff1744, #d500f9);
+    /* Red to Pink */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #18ffff;
+    /* Neon Blue */
+    color: #000;
+    box-shadow: 0px 0px 10px #18ffff;
+}
+
+/* Carousel Container */
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    max-width: 450px;
+    height: 470px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Wrapper */
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Slide */
+.slide {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Buttons (Inside Image Card) */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    /* Initially hidden */
+}
+
+/* Show buttons when hovering */
+.carousel:hover .prev,
+.carousel:hover .next {
+    opacity: 1;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Dots Navigation */
+.dots-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
